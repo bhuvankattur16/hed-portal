@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # HED Retrieval System
 
 A retrieval system for HED (Health, Education, Development) data.
@@ -10,9 +9,18 @@ A retrieval system for HED (Health, Education, Development) data.
 
 ## Getting Started
 
-### Backend
+### 1. Clone the Repository
 
-1. Navigate to `backend/`:
+```bash
+git clone <your-repository-url>
+cd hed-retrieval-system
+```
+
+### 2. Set Up the Backend (FastAPI)
+
+The backend uses Python. You need to create a virtual environment to manage its dependencies.
+
+1. Navigate to the backend folder:
    ```bash
    cd backend
    ```
@@ -21,20 +29,32 @@ A retrieval system for HED (Health, Education, Development) data.
    python -m venv venv
    ```
 3. Activate the virtual environment:
-   - Windows: `.\venv\Scripts\activate`
-   - Linux/macOS: `source venv/bin/activate`
+   - **Windows:**
+     ```bash
+     .\venv\Scripts\activate
+     ```
+   - **Linux/macOS:**
+     ```bash
+     source venv/bin/activate
+     ```
 4. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-5. Run the server:
+5. Set up environment variables:
+   - Check if there is a `.env.example` file. 
+   - Create a `.env` file in the `backend/` directory and add the necessary environment variables (like API keys or database URLs) provided by the repository owner.
+6. Run the server:
    ```bash
    uvicorn main:app --reload
    ```
+   *The backend should now be running, typically on `http://localhost:8000`.*
 
-### Frontend
+### 3. Set Up the Frontend (React)
 
-1. Navigate to `frontend/`:
+Open a **new terminal window** to start the frontend alongside the backend.
+
+1. Navigate to the frontend folder (from the project root):
    ```bash
    cd frontend
    ```
@@ -42,10 +62,10 @@ A retrieval system for HED (Health, Education, Development) data.
    ```bash
    npm install
    ```
-3. Run the development server:
+3. Set up environment variables:
+   - Create a `.env` file in the `frontend/` directory if required, based on any `.env.example` provided.
+4. Run the development server:
    ```bash
    npm run dev
    ```
-=======
-# hed-portal
->>>>>>> decc24286668483751908466e65f7dfa3724920b
+   *The frontend should now be accessible in your browser, typically on `http://localhost:5173`.*
