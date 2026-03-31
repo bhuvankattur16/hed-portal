@@ -1,0 +1,2870 @@
+﻿venv\Scripts\python : INFO:  
+   Started server process 
+[2176]
+At line:1 char:1
++ venv\Scripts\python -m 
+uvicorn main:app > 
+backend_stdout.txt 2> backe 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecifi    ed: 
+(INFO:     Sta    rted 
+server proces    s 
+[2176]:String) [    ], 
+RemoteException
+    + FullyQualifiedEr    
+rorId : NativeComm    
+andError
+ 
+INFO:     Waiting for 
+application startup.
+Could not connect to MongoDB 
+Atlas: SSL handshake failed: 
+ac-3bqrjga-shard-00-02.7lneye
+v.mongodb.net:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms),SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+1.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms),SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+0.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms), Timeout: 30s, 
+Topology Description: 
+<TopologyDescription id: 
+69a674fa2a4c2e59f0f45cdf, 
+topology_type: 
+ReplicaSetNoPrimary, 
+servers: [<ServerDescription 
+('ac-3bqrjga-shard-00-00.7lne
+yev.mongodb.net', 27017) 
+server_type: Unknown, rtt: 
+None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-00.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>, 
+<ServerDescription ('ac-3bqrj
+ga-shard-00-01.7lneyev.mongod
+b.net', 27017) server_type: 
+Unknown, rtt: None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-01.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>, 
+<ServerDescription ('ac-3bqrj
+ga-shard-00-02.7lneyev.mongod
+b.net', 27017) server_type: 
+Unknown, rtt: None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-02.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>]>
+INFO:     Application 
+startup complete.
+INFO:     Uvicorn running on 
+http://127.0.0.1:8000 (Press 
+CTRL+C to quit)
+Warning: You are sending 
+unauthenticated requests to 
+the HF Hub. Please set a 
+HF_TOKEN to enable higher 
+rate limits and faster 
+downloads.
+
+Loading weights:   0%|       
+   | 0/103 [00:00<?, ?it/s]
+Loading weights:   1%|       
+   | 1/103 [00:00<?, ?it/s, 
+Materializing param=embedding
+s.LayerNorm.bias]
+Loading weights:   1%|       
+   | 1/103 [00:00<?, ?it/s, 
+Materializing param=embedding
+s.LayerNorm.bias]
+Loading weights:   2%|1      
+   | 2/103 [00:00<00:00, 
+568.33it/s, Materializing par
+am=embeddings.LayerNorm.weigh
+t]
+Loading weights:   2%|1      
+   | 2/103 [00:00<00:00, 
+478.20it/s, Materializing par
+am=embeddings.LayerNorm.weigh
+t]
+Loading weights:   3%|2      
+   | 3/103 [00:00<00:00, 
+473.31it/s, Materializing par
+am=embeddings.position_embedd
+ings.weight]
+Loading weights:   3%|2      
+   | 3/103 [00:00<00:00, 
+342.23it/s, Materializing par
+am=embeddings.position_embedd
+ings.weight]
+Loading weights:   4%|3      
+   | 4/103 [00:00<00:00, 
+405.88it/s, Materializing par
+am=embeddings.token_type_embe
+ddings.weight]
+Loading weights:   4%|3      
+   | 4/103 [00:00<00:00, 
+405.88it/s, Materializing par
+am=embeddings.token_type_embe
+ddings.weight]
+Loading weights:   5%|4      
+   | 5/103 [00:00<00:00, 
+439.57it/s, Materializing par
+am=embeddings.word_embeddings
+.weight]      
+Loading weights:   5%|4      
+   | 5/103 [00:00<00:00, 
+396.04it/s, Materializing par
+am=embeddings.word_embeddings
+.weight]
+Loading weights:   6%|5      
+   | 6/103 [00:00<00:00, 
+328.83it/s, Materializing par
+am=encoder.layer.0.attention.
+output.LayerNorm.bias]
+Loading weights:   6%|5      
+   | 6/103 [00:00<00:00, 
+308.11it/s, Materializing par
+am=encoder.layer.0.attention.
+output.LayerNorm.bias]
+Loading weights:   7%|6      
+   | 7/103 [00:00<00:00, 
+325.00it/s, Materializing par
+am=encoder.layer.0.attention.
+output.LayerNorm.weight]
+Loading weights:   7%|6      
+   | 7/103 [00:00<00:00, 
+325.00it/s, Materializing par
+am=encoder.layer.0.attention.
+output.LayerNorm.weight]
+Loading weights:   8%|7      
+   | 8/103 [00:00<00:00, 
+335.26it/s, Materializing par
+am=encoder.layer.0.attention.
+output.dense.bias]      
+Loading weights:   8%|7      
+   | 8/103 [00:00<00:00, 
+304.07it/s, Materializing par
+am=encoder.layer.0.attention.
+output.dense.bias]
+Loading weights:   9%|8      
+   | 9/103 [00:00<00:00, 
+323.43it/s, Materializing par
+am=encoder.layer.0.attention.
+output.dense.weight]
+Loading weights:   9%|8      
+   | 9/103 [00:00<00:00, 
+306.08it/s, Materializing par
+am=encoder.layer.0.attention.
+output.dense.weight]
+Loading weights:  10%|9      
+   | 10/103 [00:00<00:00, 
+328.77it/s, Materializing par
+am=encoder.layer.0.attention.
+self.key.bias]     
+Loading weights:  10%|9      
+   | 10/103 [00:00<00:00, 
+328.77it/s, Materializing par
+am=encoder.layer.0.attention.
+self.key.bias]
+Loading weights:  11%|#      
+   | 11/103 [00:00<00:00, 
+336.55it/s, Materializing par
+am=encoder.layer.0.attention.
+self.key.weight]
+Loading weights:  11%|#      
+   | 11/103 [00:00<00:00, 
+336.55it/s, Materializing par
+am=encoder.layer.0.attention.
+self.key.weight]
+Loading weights:  12%|#1     
+   | 12/103 [00:00<00:00, 
+355.88it/s, Materializing par
+am=encoder.layer.0.attention.
+self.query.bias]
+Loading weights:  12%|#1     
+   | 12/103 [00:00<00:00, 
+355.88it/s, Materializing par
+am=encoder.layer.0.attention.
+self.query.bias]
+Loading weights:  13%|#2     
+   | 13/103 [00:00<00:00, 
+349.30it/s, Materializing par
+am=encoder.layer.0.attention.
+self.query.weight]
+Loading weights:  13%|#2     
+   | 13/103 [00:00<00:00, 
+349.30it/s, Materializing par
+am=encoder.layer.0.attention.
+self.query.weight]
+Loading weights:  14%|#3     
+   | 14/103 [00:00<00:00, 
+370.98it/s, Materializing par
+am=encoder.layer.0.attention.
+self.value.bias]  
+Loading weights:  14%|#3     
+   | 14/103 [00:00<00:00, 
+361.20it/s, Materializing par
+am=encoder.layer.0.attention.
+self.value.bias]
+Loading weights:  15%|#4     
+   | 15/103 [00:00<00:00, 
+376.98it/s, Materializing par
+am=encoder.layer.0.attention.
+self.value.weight]
+Loading weights:  15%|#4     
+   | 15/103 [00:00<00:00, 
+348.38it/s, Materializing par
+am=encoder.layer.0.attention.
+self.value.weight]
+Loading weights:  16%|#5     
+   | 16/103 [00:00<00:00, 
+329.81it/s, Materializing par
+am=encoder.layer.0.intermedia
+te.dense.bias]    
+Loading weights:  16%|#5     
+   | 16/103 [00:00<00:00, 
+329.81it/s, Materializing par
+am=encoder.layer.0.intermedia
+te.dense.bias]
+Loading weights:  17%|#6     
+   | 17/103 [00:00<00:00, 
+316.97it/s, Materializing par
+am=encoder.layer.0.intermedia
+te.dense.weight]
+Loading weights:  17%|#6     
+   | 17/103 [00:00<00:00, 
+313.94it/s, Materializing par
+am=encoder.layer.0.intermedia
+te.dense.weight]
+Loading weights:  17%|#7     
+   | 18/103 [00:00<00:00, 
+315.57it/s, Materializing par
+am=encoder.layer.0.output.Lay
+erNorm.bias]    
+Loading weights:  17%|#7     
+   | 18/103 [00:00<00:00, 
+315.57it/s, Materializing par
+am=encoder.layer.0.output.Lay
+erNorm.bias]
+Loading weights:  18%|#8     
+   | 19/103 [00:00<00:00, 
+327.37it/s, Materializing par
+am=encoder.layer.0.output.Lay
+erNorm.weight]
+Loading weights:  18%|#8     
+   | 19/103 [00:00<00:00, 
+314.05it/s, Materializing par
+am=encoder.layer.0.output.Lay
+erNorm.weight]
+Loading weights:  19%|#9     
+   | 20/103 [00:00<00:00, 
+314.59it/s, Materializing par
+am=encoder.layer.0.output.den
+se.bias]      
+Loading weights:  19%|#9     
+   | 20/103 [00:00<00:00, 
+308.23it/s, Materializing par
+am=encoder.layer.0.output.den
+se.bias]
+Loading weights:  20%|##     
+   | 21/103 [00:00<00:00, 
+323.64it/s, Materializing par
+am=encoder.layer.0.output.den
+se.weight]
+Loading weights:  20%|##     
+   | 21/103 [00:00<00:00, 
+305.72it/s, Materializing par
+am=encoder.layer.0.output.den
+se.weight]
+Loading weights:  21%|##1    
+   | 22/103 [00:00<00:00, 
+310.60it/s, Materializing par
+am=encoder.layer.1.attention.
+output.LayerNorm.bias]
+Loading weights:  21%|##1    
+   | 22/103 [00:00<00:00, 
+299.69it/s, Materializing par
+am=encoder.layer.1.attention.
+output.LayerNorm.bias]
+Loading weights:  22%|##2    
+   | 23/103 [00:00<00:00, 
+308.95it/s, Materializing par
+am=encoder.layer.1.attention.
+output.LayerNorm.weight]
+Loading weights:  22%|##2    
+   | 23/103 [00:00<00:00, 
+305.00it/s, Materializing par
+am=encoder.layer.1.attention.
+output.LayerNorm.weight]
+Loading weights:  23%|##3    
+   | 24/103 [00:00<00:00, 
+314.09it/s, Materializing par
+am=encoder.layer.1.attention.
+output.dense.bias]      
+Loading weights:  23%|##3    
+   | 24/103 [00:00<00:00, 
+314.09it/s, Materializing par
+am=encoder.layer.1.attention.
+output.dense.bias]
+Loading weights:  24%|##4    
+   | 25/103 [00:00<00:00, 
+314.29it/s, Materializing par
+am=encoder.layer.1.attention.
+output.dense.weight]
+Loading weights:  24%|##4    
+   | 25/103 [00:00<00:00, 
+314.29it/s, Materializing par
+am=encoder.layer.1.attention.
+output.dense.weight]
+Loading weights:  25%|##5    
+   | 26/103 [00:00<00:00, 
+315.07it/s, Materializing par
+am=encoder.layer.1.attention.
+self.key.bias]      
+Loading weights:  25%|##5    
+   | 26/103 [00:00<00:00, 
+309.29it/s, Materializing par
+am=encoder.layer.1.attention.
+self.key.bias]
+Loading weights:  26%|##6    
+   | 27/103 [00:00<00:00, 
+311.80it/s, Materializing par
+am=encoder.layer.1.attention.
+self.key.weight]
+Loading weights:  26%|##6    
+   | 27/103 [00:00<00:00, 
+300.98it/s, Materializing par
+am=encoder.layer.1.attention.
+self.key.weight]
+Loading weights:  27%|##7    
+   | 28/103 [00:00<00:00, 
+309.61it/s, Materializing par
+am=encoder.layer.1.attention.
+self.query.bias]
+Loading weights:  27%|##7    
+   | 28/103 [00:00<00:00, 
+309.61it/s, Materializing par
+am=encoder.layer.1.attention.
+self.query.bias]
+Loading weights:  28%|##8    
+   | 29/103 [00:00<00:00, 
+311.92it/s, Materializing par
+am=encoder.layer.1.attention.
+self.query.weight]
+Loading weights:  28%|##8    
+   | 29/103 [00:00<00:00, 
+308.60it/s, Materializing par
+am=encoder.layer.1.attention.
+self.query.weight]
+Loading weights:  29%|##9    
+   | 30/103 [00:00<00:00, 
+319.24it/s, Materializing par
+am=encoder.layer.1.attention.
+self.value.bias]  
+Loading weights:  29%|##9    
+   | 30/103 [00:00<00:00, 
+315.88it/s, Materializing par
+am=encoder.layer.1.attention.
+self.value.bias]
+Loading weights:  30%|###    
+   | 31/103 [00:00<00:00, 
+323.01it/s, Materializing par
+am=encoder.layer.1.attention.
+self.value.weight]
+Loading weights:  30%|###    
+   | 31/103 [00:00<00:00, 
+323.01it/s, Materializing par
+am=encoder.layer.1.attention.
+self.value.weight]
+Loading weights:  31%|###1   
+   | 32/103 [00:00<00:00, 
+321.71it/s, Materializing par
+am=encoder.layer.1.intermedia
+te.dense.bias]    
+Loading weights:  31%|###1   
+   | 32/103 [00:00<00:00, 
+315.30it/s, Materializing par
+am=encoder.layer.1.intermedia
+te.dense.bias]
+Loading weights:  32%|###2   
+   | 33/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.1.intermedia
+te.dense.bias]
+Loading weights:  32%|###2   
+   | 33/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.1.intermedia
+te.dense.weight]
+Loading weights:  32%|###2   
+   | 33/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.1.intermedia
+te.dense.weight]
+Loading weights:  33%|###3   
+   | 34/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.1.output.Lay
+erNorm.bias]    
+Loading weights:  33%|###3   
+   | 34/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.1.output.Lay
+erNorm.bias]
+Loading weights:  34%|###3   
+   | 35/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.1.output.Lay
+erNorm.weight]
+Loading weights:  34%|###3   
+   | 35/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.1.output.Lay
+erNorm.weight]
+Loading weights:  35%|###4   
+   | 36/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.1.output.den
+se.bias]      
+Loading weights:  35%|###4   
+   | 36/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.1.output.den
+se.bias]
+Loading weights:  36%|###5   
+   | 37/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.1.output.den
+se.weight]
+Loading weights:  36%|###5   
+   | 37/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.1.output.den
+se.weight]
+Loading weights:  37%|###6   
+   | 38/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+output.LayerNorm.bias]
+Loading weights:  37%|###6   
+   | 38/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+output.LayerNorm.bias]
+Loading weights:  38%|###7   
+   | 39/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+output.LayerNorm.weight]
+Loading weights:  38%|###7   
+   | 39/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+output.LayerNorm.weight]
+Loading weights:  39%|###8   
+   | 40/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+output.dense.bias]      
+Loading weights:  39%|###8   
+   | 40/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+output.dense.bias]
+Loading weights:  40%|###9   
+   | 41/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+output.dense.weight]
+Loading weights:  40%|###9   
+   | 41/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+output.dense.weight]
+Loading weights:  41%|####   
+   | 42/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+self.key.bias]      
+Loading weights:  41%|####   
+   | 42/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+self.key.bias]
+Loading weights:  42%|####1  
+   | 43/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+self.key.weight]
+Loading weights:  42%|####1  
+   | 43/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+self.key.weight]
+Loading weights:  43%|####2  
+   | 44/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+self.query.bias]
+Loading weights:  43%|####2  
+   | 44/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+self.query.bias]
+Loading weights:  44%|####3  
+   | 45/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+self.query.weight]
+Loading weights:  44%|####3  
+   | 45/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+self.query.weight]
+Loading weights:  45%|####4  
+   | 46/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+self.value.bias]  
+Loading weights:  45%|####4  
+   | 46/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+self.value.bias]
+Loading weights:  46%|####5  
+   | 47/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+self.value.weight]
+Loading weights:  46%|####5  
+   | 47/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.attention.
+self.value.weight]
+Loading weights:  47%|####6  
+   | 48/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.intermedia
+te.dense.bias]    
+Loading weights:  47%|####6  
+   | 48/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.intermedia
+te.dense.bias]
+Loading weights:  48%|####7  
+   | 49/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.intermedia
+te.dense.weight]
+Loading weights:  48%|####7  
+   | 49/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.intermedia
+te.dense.weight]
+Loading weights:  49%|####8  
+   | 50/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.output.Lay
+erNorm.bias]    
+Loading weights:  49%|####8  
+   | 50/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.output.Lay
+erNorm.bias]
+Loading weights:  50%|####9  
+   | 51/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.output.Lay
+erNorm.weight]
+Loading weights:  50%|####9  
+   | 51/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.output.Lay
+erNorm.weight]
+Loading weights:  50%|#####  
+   | 52/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.output.den
+se.bias]      
+Loading weights:  50%|#####  
+   | 52/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.output.den
+se.bias]
+Loading weights:  51%|#####1 
+   | 53/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.output.den
+se.weight]
+Loading weights:  51%|#####1 
+   | 53/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.2.output.den
+se.weight]
+Loading weights:  52%|#####2 
+   | 54/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+output.LayerNorm.bias]
+Loading weights:  52%|#####2 
+   | 54/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+output.LayerNorm.bias]
+Loading weights:  53%|#####3 
+   | 55/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+output.LayerNorm.weight]
+Loading weights:  53%|#####3 
+   | 55/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+output.LayerNorm.weight]
+Loading weights:  54%|#####4 
+   | 56/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+output.dense.bias]      
+Loading weights:  54%|#####4 
+   | 56/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+output.dense.bias]
+Loading weights:  55%|#####5 
+   | 57/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+output.dense.weight]
+Loading weights:  55%|#####5 
+   | 57/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+output.dense.weight]
+Loading weights:  56%|#####6 
+   | 58/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+self.key.bias]      
+Loading weights:  56%|#####6 
+   | 58/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+self.key.bias]
+Loading weights:  57%|#####7 
+   | 59/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+self.key.weight]
+Loading weights:  57%|#####7 
+   | 59/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+self.key.weight]
+Loading weights:  58%|#####8 
+   | 60/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+self.query.bias]
+Loading weights:  58%|#####8 
+   | 60/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+self.query.bias]
+Loading weights:  59%|#####9 
+   | 61/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+self.query.weight]
+Loading weights:  59%|#####9 
+   | 61/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+self.query.weight]
+Loading weights:  60%|###### 
+   | 62/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+self.value.bias]  
+Loading weights:  60%|###### 
+   | 62/103 [00:00<00:00, 
+321.98it/s, Materializing par
+am=encoder.layer.3.attention.
+self.value.bias]
+Loading weights:  
+61%|######1   | 63/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.attention.self.value.w
+eight]
+Loading weights:  
+61%|######1   | 63/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.attention.self.value.w
+eight]
+Loading weights:  
+62%|######2   | 64/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.intermediate.dense.bia
+s]    
+Loading weights:  
+62%|######2   | 64/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.intermediate.dense.bia
+s]
+Loading weights:  
+63%|######3   | 65/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.intermediate.dense.wei
+ght]
+Loading weights:  
+63%|######3   | 65/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.intermediate.dense.wei
+ght]
+Loading weights:  
+64%|######4   | 66/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.output.LayerNorm.bias]
+    
+Loading weights:  
+64%|######4   | 66/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.output.LayerNorm.bias]
+Loading weights:  
+65%|######5   | 67/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.output.LayerNorm.weigh
+t]
+Loading weights:  
+65%|######5   | 67/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.output.LayerNorm.weigh
+t]
+Loading weights:  
+66%|######6   | 68/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.output.dense.bias]    
+  
+Loading weights:  
+66%|######6   | 68/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.output.dense.bias]
+Loading weights:  
+67%|######6   | 69/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.output.dense.weight]
+Loading weights:  
+67%|######6   | 69/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.3.output.dense.weight]
+Loading weights:  
+68%|######7   | 70/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.output.Layer
+Norm.bias]
+Loading weights:  
+68%|######7   | 70/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.output.Layer
+Norm.bias]
+Loading weights:  
+69%|######8   | 71/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.output.Layer
+Norm.weight]
+Loading weights:  
+69%|######8   | 71/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.output.Layer
+Norm.weight]
+Loading weights:  
+70%|######9   | 72/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.output.dense
+.bias]      
+Loading weights:  
+70%|######9   | 72/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.output.dense
+.bias]
+Loading weights:  
+71%|#######   | 73/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.output.dense
+.weight]
+Loading weights:  
+71%|#######   | 73/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.output.dense
+.weight]
+Loading weights:  
+72%|#######1  | 74/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.self.key.bia
+s]      
+Loading weights:  
+72%|#######1  | 74/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.self.key.bia
+s]
+Loading weights:  
+73%|#######2  | 75/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.self.key.wei
+ght]
+Loading weights:  
+73%|#######2  | 75/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.self.key.wei
+ght]
+Loading weights:  
+74%|#######3  | 76/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.self.query.b
+ias]
+Loading weights:  
+74%|#######3  | 76/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.self.query.b
+ias]
+Loading weights:  
+75%|#######4  | 77/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.self.query.w
+eight]
+Loading weights:  
+75%|#######4  | 77/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.self.query.w
+eight]
+Loading weights:  
+76%|#######5  | 78/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.self.value.b
+ias]  
+Loading weights:  
+76%|#######5  | 78/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.self.value.b
+ias]
+Loading weights:  
+77%|#######6  | 79/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.self.value.w
+eight]
+Loading weights:  
+77%|#######6  | 79/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.attention.self.value.w
+eight]
+Loading weights:  
+78%|#######7  | 80/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.intermediate.dense.bia
+s]    
+Loading weights:  
+78%|#######7  | 80/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.intermediate.dense.bia
+s]
+Loading weights:  
+79%|#######8  | 81/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.intermediate.dense.wei
+ght]
+Loading weights:  
+79%|#######8  | 81/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.intermediate.dense.wei
+ght]
+Loading weights:  
+80%|#######9  | 82/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.output.LayerNorm.bias]
+    
+Loading weights:  
+80%|#######9  | 82/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.output.LayerNorm.bias]
+Loading weights:  
+81%|########  | 83/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.output.LayerNorm.weigh
+t]
+Loading weights:  
+81%|########  | 83/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.output.LayerNorm.weigh
+t]
+Loading weights:  
+82%|########1 | 84/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.output.dense.bias]    
+  
+Loading weights:  
+82%|########1 | 84/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.output.dense.bias]
+Loading weights:  
+83%|########2 | 85/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.output.dense.weight]
+Loading weights:  
+83%|########2 | 85/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.4.output.dense.weight]
+Loading weights:  
+83%|########3 | 86/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.output.Layer
+Norm.bias]
+Loading weights:  
+83%|########3 | 86/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.output.Layer
+Norm.bias]
+Loading weights:  
+84%|########4 | 87/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.output.Layer
+Norm.weight]
+Loading weights:  
+84%|########4 | 87/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.output.Layer
+Norm.weight]
+Loading weights:  
+85%|########5 | 88/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.output.dense
+.bias]      
+Loading weights:  
+85%|########5 | 88/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.output.dense
+.bias]
+Loading weights:  
+86%|########6 | 89/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.output.dense
+.weight]
+Loading weights:  
+86%|########6 | 89/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.output.dense
+.weight]
+Loading weights:  
+87%|########7 | 90/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.self.key.bia
+s]      
+Loading weights:  
+87%|########7 | 90/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.self.key.bia
+s]
+Loading weights:  
+88%|########8 | 91/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.self.key.wei
+ght]
+Loading weights:  
+88%|########8 | 91/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.self.key.wei
+ght]
+Loading weights:  
+89%|########9 | 92/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.self.query.b
+ias]
+Loading weights:  
+89%|########9 | 92/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.self.query.b
+ias]
+Loading weights:  
+90%|######### | 93/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.self.query.w
+eight]
+Loading weights:  
+90%|######### | 93/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.self.query.w
+eight]
+Loading weights:  
+91%|#########1| 94/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.self.value.b
+ias]  
+Loading weights:  
+91%|#########1| 94/103 
+[00:00<00:00, 321.98it/s, 
+Materializing param=encoder.l
+ayer.5.attention.self.value.b
+ias]
+Loading weights:  
+92%|#########2| 95/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.attention.self.value.b
+ias]
+Loading weights:  
+92%|#########2| 95/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.attention.self.value.w
+eight]
+Loading weights:  
+92%|#########2| 95/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.attention.self.value.w
+eight]
+Loading weights:  
+93%|#########3| 96/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.intermediate.dense.bia
+s]    
+Loading weights:  
+93%|#########3| 96/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.intermediate.dense.bia
+s]
+Loading weights:  
+94%|#########4| 97/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.intermediate.dense.wei
+ght]
+Loading weights:  
+94%|#########4| 97/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.intermediate.dense.wei
+ght]
+Loading weights:  
+95%|#########5| 98/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.output.LayerNorm.bias]
+    
+Loading weights:  
+95%|#########5| 98/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.output.LayerNorm.bias]
+Loading weights:  
+96%|#########6| 99/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.output.LayerNorm.weigh
+t]
+Loading weights:  
+96%|#########6| 99/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.output.LayerNorm.weigh
+t]
+Loading weights:  
+97%|#########7| 100/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.output.dense.bias]    
+ 
+Loading weights:  
+97%|#########7| 100/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.output.dense.bias]
+Loading weights:  
+98%|#########8| 101/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.output.dense.weight]
+Loading weights:  
+98%|#########8| 101/103 
+[00:00<00:00, 477.76it/s, 
+Materializing param=encoder.l
+ayer.5.output.dense.weight]
+Loading weights:  
+99%|#########9| 102/103 
+[00:00<00:00, 477.76it/s, 
+Materializing 
+param=pooler.dense.bias]     
+             
+Loading weights:  
+99%|#########9| 102/103 
+[00:00<00:00, 477.76it/s, 
+Materializing 
+param=pooler.dense.bias]
+Loading weights: 
+100%|##########| 103/103 
+[00:00<00:00, 477.76it/s, 
+Materializing 
+param=pooler.dense.weight]
+Loading weights: 
+100%|##########| 103/103 
+[00:00<00:00, 477.76it/s, 
+Materializing 
+param=pooler.dense.weight]
+Loading weights: 
+100%|##########| 103/103 
+[00:00<00:00, 450.28it/s, 
+Materializing 
+param=pooler.dense.weight]
+[1mBertModel LOAD 
+REPORT[0m from: sentence-tra
+nsformers/all-MiniLM-L6-v2
+Key                     | 
+Status     |  | 
+------------------------+----
+--------+--+-
+embeddings.position_ids | 
+UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be 
+ignored when loading from 
+different task/architecture; 
+not ok if you expect 
+identical arch.[0m
+D:\s8 project\hed-retrieval-s
+ystem\backend\services\rag_se
+rvice.py:15: 
+LangChainDeprecationWarning: 
+The class `Chroma` was 
+deprecated in LangChain 
+0.2.9 and will be removed in 
+1.0. An updated version of 
+the class exists in the 
+`langchain-chroma package 
+and should be used instead. 
+To use it run `pip install 
+-U `langchain-chroma` and 
+import as `from 
+`langchain_chroma import 
+Chroma``.
+  db = Chroma(
+D:\s8 project\hed-retrieval-s
+ystem\backend\services\rag_se
+rvice.py:27: 
+LangChainDeprecationWarning: 
+Since Chroma 0.4.x the 
+manual persistence method is 
+no longer supported as docs 
+are automatically persisted.
+  db.persist()
+ERROR:    Exception in ASGI 
+application
+Traceback (most recent call 
+last):
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\uvicorn\proto
+cols\http\httptools_impl.py",
+ line 416, in run_asgi
+    result = await app(  # 
+type: 
+ignore[func-returns-value]
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\uvicorn\middl
+eware\proxy_headers.py", 
+line 60, in __call__
+    return await 
+self.app(scope, receive, 
+send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\appli
+cations.py", line 1160, in 
+__call__
+    await 
+super().__call__(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\app
+lications.py", line 107, in 
+__call__
+    await 
+self.middleware_stack(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\errors.py", line 
+186, in __call__
+    raise exc
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\errors.py", line 
+164, in __call__
+    await self.app(scope, 
+receive, _send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\cors.py", line 95, 
+in __call__
+    await 
+self.simple_response(scope, 
+receive, send, 
+request_headers=headers)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\cors.py", line 153, 
+in simple_response
+    await self.app(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\exceptions.py", line 
+63, in __call__
+    await wrap_app_handling_e
+xceptions(self.app, 
+conn)(scope, receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+53, in wrapped_app
+    raise exc
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+42, in wrapped_app
+    await app(scope, 
+receive, sender)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\middl
+eware\asyncexitstack.py", 
+line 18, in __call__
+    await self.app(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\rou
+ting.py", line 716, in 
+__call__
+    await 
+self.middleware_stack(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\rou
+ting.py", line 736, in app
+    await 
+route.handle(scope, receive, 
+send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\rou
+ting.py", line 290, in handle
+    await self.app(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 119, in app
+    await wrap_app_handling_e
+xceptions(app, 
+request)(scope, receive, 
+send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+53, in wrapped_app
+    raise exc
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+42, in wrapped_app
+    await app(scope, 
+receive, sender)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 105, in app
+    response = await 
+f(request)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 431, in app
+    raw_response = await 
+run_endpoint_function(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 313, in 
+run_endpoint_function
+    return await 
+dependant.call(**values)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\api\rou
+tes.py", line 163, in get_fre
+quently_accessed_documents
+    documents = await 
+cursor.to_list(length=10)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\motor\core.py
+", line 1696, in _to_list
+    result = 
+get_more_result.result()
+  File "C:\Program Files\Pyth
+on310\lib\concurrent\futures\
+thread.py", line 58, in run
+    result = 
+self.fn(*self.args, 
+**self.kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\cursor.py", line 
+1213, in _refresh
+    self._send_message(q)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\cursor.py", line 
+1108, in _send_message
+    response = 
+client._run_operation(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\_csot
+.py", line 125, in 
+csot_wrapper
+    return func(self, *args, 
+**kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 1938, in _run_operation
+    return 
+self._retryable_read(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2048, in _retryable_read
+    return 
+self._retry_internal(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\_csot
+.py", line 125, in 
+csot_wrapper
+    return func(self, *args, 
+**kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2014, in _retry_internal
+    ).run()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2763, in run
+    return self._read() if 
+self._is_read else 
+self._write()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2908, in _read
+    self._server = 
+self._get_server()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2856, in _get_server
+    return 
+self._client._select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 1833, in _select_server
+    server = 
+topology.select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+428, in select_server
+    server = 
+self._select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+402, in _select_server
+    servers = 
+self.select_servers(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+298, in select_servers
+    server_descriptions = 
+self._select_servers_loop(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+359, in _select_servers_loop
+    raise 
+ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectio
+nTimeoutError: SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+2.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms),SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+1.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms),SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+0.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms), Timeout: 30s, 
+Topology Description: 
+<TopologyDescription id: 
+69a674fa2a4c2e59f0f45cdf, 
+topology_type: 
+ReplicaSetNoPrimary, 
+servers: [<ServerDescription 
+('ac-3bqrjga-shard-00-00.7lne
+yev.mongodb.net', 27017) 
+server_type: Unknown, rtt: 
+None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-00.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>, 
+<ServerDescription ('ac-3bqrj
+ga-shard-00-01.7lneyev.mongod
+b.net', 27017) server_type: 
+Unknown, rtt: None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-01.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>, 
+<ServerDescription ('ac-3bqrj
+ga-shard-00-02.7lneyev.mongod
+b.net', 27017) server_type: 
+Unknown, rtt: None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-02.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>]>
+ERROR:    Exception in ASGI 
+application
+Traceback (most recent call 
+last):
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\uvicorn\proto
+cols\http\httptools_impl.py",
+ line 416, in run_asgi
+    result = await app(  # 
+type: 
+ignore[func-returns-value]
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\uvicorn\middl
+eware\proxy_headers.py", 
+line 60, in __call__
+    return await 
+self.app(scope, receive, 
+send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\appli
+cations.py", line 1160, in 
+__call__
+    await 
+super().__call__(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\app
+lications.py", line 107, in 
+__call__
+    await 
+self.middleware_stack(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\errors.py", line 
+186, in __call__
+    raise exc
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\errors.py", line 
+164, in __call__
+    await self.app(scope, 
+receive, _send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\cors.py", line 95, 
+in __call__
+    await 
+self.simple_response(scope, 
+receive, send, 
+request_headers=headers)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\cors.py", line 153, 
+in simple_response
+    await self.app(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\exceptions.py", line 
+63, in __call__
+    await wrap_app_handling_e
+xceptions(self.app, 
+conn)(scope, receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+53, in wrapped_app
+    raise exc
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+42, in wrapped_app
+    await app(scope, 
+receive, sender)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\middl
+eware\asyncexitstack.py", 
+line 18, in __call__
+    await self.app(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\rou
+ting.py", line 716, in 
+__call__
+    await 
+self.middleware_stack(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\rou
+ting.py", line 736, in app
+    await 
+route.handle(scope, receive, 
+send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\rou
+ting.py", line 290, in handle
+    await self.app(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 119, in app
+    await wrap_app_handling_e
+xceptions(app, 
+request)(scope, receive, 
+send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+53, in wrapped_app
+    raise exc
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+42, in wrapped_app
+    await app(scope, 
+receive, sender)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 105, in app
+    response = await 
+f(request)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 431, in app
+    raw_response = await 
+run_endpoint_function(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 313, in 
+run_endpoint_function
+    return await 
+dependant.call(**values)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\api\rou
+tes.py", line 163, in get_fre
+quently_accessed_documents
+    documents = await 
+cursor.to_list(length=10)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\motor\core.py
+", line 1696, in _to_list
+    result = 
+get_more_result.result()
+  File "C:\Program Files\Pyth
+on310\lib\concurrent\futures\
+thread.py", line 58, in run
+    result = 
+self.fn(*self.args, 
+**self.kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\cursor.py", line 
+1213, in _refresh
+    self._send_message(q)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\cursor.py", line 
+1108, in _send_message
+    response = 
+client._run_operation(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\_csot
+.py", line 125, in 
+csot_wrapper
+    return func(self, *args, 
+**kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 1938, in _run_operation
+    return 
+self._retryable_read(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2048, in _retryable_read
+    return 
+self._retry_internal(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\_csot
+.py", line 125, in 
+csot_wrapper
+    return func(self, *args, 
+**kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2014, in _retry_internal
+    ).run()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2763, in run
+    return self._read() if 
+self._is_read else 
+self._write()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2908, in _read
+    self._server = 
+self._get_server()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2856, in _get_server
+    return 
+self._client._select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 1833, in _select_server
+    server = 
+topology.select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+428, in select_server
+    server = 
+self._select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+402, in _select_server
+    servers = 
+self.select_servers(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+298, in select_servers
+    server_descriptions = 
+self._select_servers_loop(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+359, in _select_servers_loop
+    raise 
+ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectio
+nTimeoutError: SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+2.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms),SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+1.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms),SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+0.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms), Timeout: 30s, 
+Topology Description: 
+<TopologyDescription id: 
+69a674fa2a4c2e59f0f45cdf, 
+topology_type: 
+ReplicaSetNoPrimary, 
+servers: [<ServerDescription 
+('ac-3bqrjga-shard-00-00.7lne
+yev.mongodb.net', 27017) 
+server_type: Unknown, rtt: 
+None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-00.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>, 
+<ServerDescription ('ac-3bqrj
+ga-shard-00-01.7lneyev.mongod
+b.net', 27017) server_type: 
+Unknown, rtt: None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-01.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>, 
+<ServerDescription ('ac-3bqrj
+ga-shard-00-02.7lneyev.mongod
+b.net', 27017) server_type: 
+Unknown, rtt: None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-02.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>]>
+ERROR:    Exception in ASGI 
+application
+Traceback (most recent call 
+last):
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\uvicorn\proto
+cols\http\httptools_impl.py",
+ line 416, in run_asgi
+    result = await app(  # 
+type: 
+ignore[func-returns-value]
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\uvicorn\middl
+eware\proxy_headers.py", 
+line 60, in __call__
+    return await 
+self.app(scope, receive, 
+send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\appli
+cations.py", line 1160, in 
+__call__
+    await 
+super().__call__(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\app
+lications.py", line 107, in 
+__call__
+    await 
+self.middleware_stack(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\errors.py", line 
+186, in __call__
+    raise exc
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\errors.py", line 
+164, in __call__
+    await self.app(scope, 
+receive, _send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\cors.py", line 95, 
+in __call__
+    await 
+self.simple_response(scope, 
+receive, send, 
+request_headers=headers)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\cors.py", line 153, 
+in simple_response
+    await self.app(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\exceptions.py", line 
+63, in __call__
+    await wrap_app_handling_e
+xceptions(self.app, 
+conn)(scope, receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+53, in wrapped_app
+    raise exc
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+42, in wrapped_app
+    await app(scope, 
+receive, sender)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\middl
+eware\asyncexitstack.py", 
+line 18, in __call__
+    await self.app(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\rou
+ting.py", line 716, in 
+__call__
+    await 
+self.middleware_stack(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\rou
+ting.py", line 736, in app
+    await 
+route.handle(scope, receive, 
+send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\rou
+ting.py", line 290, in handle
+    await self.app(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 119, in app
+    await wrap_app_handling_e
+xceptions(app, 
+request)(scope, receive, 
+send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+53, in wrapped_app
+    raise exc
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+42, in wrapped_app
+    await app(scope, 
+receive, sender)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 105, in app
+    response = await 
+f(request)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 431, in app
+    raw_response = await 
+run_endpoint_function(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 313, in 
+run_endpoint_function
+    return await 
+dependant.call(**values)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\api\rou
+tes.py", line 163, in get_fre
+quently_accessed_documents
+    documents = await 
+cursor.to_list(length=10)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\motor\core.py
+", line 1696, in _to_list
+    result = 
+get_more_result.result()
+  File "C:\Program Files\Pyth
+on310\lib\concurrent\futures\
+thread.py", line 58, in run
+    result = 
+self.fn(*self.args, 
+**self.kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\cursor.py", line 
+1213, in _refresh
+    self._send_message(q)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\cursor.py", line 
+1108, in _send_message
+    response = 
+client._run_operation(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\_csot
+.py", line 125, in 
+csot_wrapper
+    return func(self, *args, 
+**kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 1938, in _run_operation
+    return 
+self._retryable_read(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2048, in _retryable_read
+    return 
+self._retry_internal(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\_csot
+.py", line 125, in 
+csot_wrapper
+    return func(self, *args, 
+**kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2014, in _retry_internal
+    ).run()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2763, in run
+    return self._read() if 
+self._is_read else 
+self._write()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2908, in _read
+    self._server = 
+self._get_server()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2856, in _get_server
+    return 
+self._client._select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 1833, in _select_server
+    server = 
+topology.select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+428, in select_server
+    server = 
+self._select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+402, in _select_server
+    servers = 
+self.select_servers(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+298, in select_servers
+    server_descriptions = 
+self._select_servers_loop(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+359, in _select_servers_loop
+    raise 
+ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectio
+nTimeoutError: SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+2.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms),SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+1.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms),SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+0.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms), Timeout: 30s, 
+Topology Description: 
+<TopologyDescription id: 
+69a674fa2a4c2e59f0f45cdf, 
+topology_type: 
+ReplicaSetNoPrimary, 
+servers: [<ServerDescription 
+('ac-3bqrjga-shard-00-00.7lne
+yev.mongodb.net', 27017) 
+server_type: Unknown, rtt: 
+None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-00.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>, 
+<ServerDescription ('ac-3bqrj
+ga-shard-00-01.7lneyev.mongod
+b.net', 27017) server_type: 
+Unknown, rtt: None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-01.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>, 
+<ServerDescription ('ac-3bqrj
+ga-shard-00-02.7lneyev.mongod
+b.net', 27017) server_type: 
+Unknown, rtt: None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-02.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>]>
+ERROR:    Exception in ASGI 
+application
+Traceback (most recent call 
+last):
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\uvicorn\proto
+cols\http\httptools_impl.py",
+ line 416, in run_asgi
+    result = await app(  # 
+type: 
+ignore[func-returns-value]
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\uvicorn\middl
+eware\proxy_headers.py", 
+line 60, in __call__
+    return await 
+self.app(scope, receive, 
+send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\appli
+cations.py", line 1160, in 
+__call__
+    await 
+super().__call__(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\app
+lications.py", line 107, in 
+__call__
+    await 
+self.middleware_stack(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\errors.py", line 
+186, in __call__
+    raise exc
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\errors.py", line 
+164, in __call__
+    await self.app(scope, 
+receive, _send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\cors.py", line 95, 
+in __call__
+    await 
+self.simple_response(scope, 
+receive, send, 
+request_headers=headers)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\cors.py", line 153, 
+in simple_response
+    await self.app(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\mid
+dleware\exceptions.py", line 
+63, in __call__
+    await wrap_app_handling_e
+xceptions(self.app, 
+conn)(scope, receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+53, in wrapped_app
+    raise exc
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+42, in wrapped_app
+    await app(scope, 
+receive, sender)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\middl
+eware\asyncexitstack.py", 
+line 18, in __call__
+    await self.app(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\rou
+ting.py", line 716, in 
+__call__
+    await 
+self.middleware_stack(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\rou
+ting.py", line 736, in app
+    await 
+route.handle(scope, receive, 
+send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\rou
+ting.py", line 290, in handle
+    await self.app(scope, 
+receive, send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 119, in app
+    await wrap_app_handling_e
+xceptions(app, 
+request)(scope, receive, 
+send)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+53, in wrapped_app
+    raise exc
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\starlette\_ex
+ception_handler.py", line 
+42, in wrapped_app
+    await app(scope, 
+receive, sender)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 105, in app
+    response = await 
+f(request)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 431, in app
+    raw_response = await 
+run_endpoint_function(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\fastapi\routi
+ng.py", line 313, in 
+run_endpoint_function
+    return await 
+dependant.call(**values)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\api\rou
+tes.py", line 163, in get_fre
+quently_accessed_documents
+    documents = await 
+cursor.to_list(length=10)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\motor\core.py
+", line 1696, in _to_list
+    result = 
+get_more_result.result()
+  File "C:\Program Files\Pyth
+on310\lib\concurrent\futures\
+thread.py", line 58, in run
+    result = 
+self.fn(*self.args, 
+**self.kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\cursor.py", line 
+1213, in _refresh
+    self._send_message(q)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\cursor.py", line 
+1108, in _send_message
+    response = 
+client._run_operation(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\_csot
+.py", line 125, in 
+csot_wrapper
+    return func(self, *args, 
+**kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 1938, in _run_operation
+    return 
+self._retryable_read(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2048, in _retryable_read
+    return 
+self._retry_internal(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\_csot
+.py", line 125, in 
+csot_wrapper
+    return func(self, *args, 
+**kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2014, in _retry_internal
+    ).run()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2763, in run
+    return self._read() if 
+self._is_read else 
+self._write()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2908, in _read
+    self._server = 
+self._get_server()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2856, in _get_server
+    return 
+self._client._select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 1833, in _select_server
+    server = 
+topology.select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+428, in select_server
+    server = 
+self._select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+402, in _select_server
+    servers = 
+self.select_servers(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+298, in select_servers
+    server_descriptions = 
+self._select_servers_loop(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+359, in _select_servers_loop
+    raise 
+ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectio
+nTimeoutError: SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+2.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms),SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+1.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms),SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+0.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms), Timeout: 30s, 
+Topology Description: 
+<TopologyDescription id: 
+69a674fa2a4c2e59f0f45cdf, 
+topology_type: 
+ReplicaSetNoPrimary, 
+servers: [<ServerDescription 
+('ac-3bqrjga-shard-00-00.7lne
+yev.mongodb.net', 27017) 
+server_type: Unknown, rtt: 
+None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-00.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>, 
+<ServerDescription ('ac-3bqrj
+ga-shard-00-01.7lneyev.mongod
+b.net', 27017) server_type: 
+Unknown, rtt: None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-01.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>, 
+<ServerDescription ('ac-3bqrj
+ga-shard-00-02.7lneyev.mongod
+b.net', 27017) server_type: 
+Unknown, rtt: None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-02.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>]>
+Traceback (most recent call 
+last):
+  File "D:\s8 project\hed-ret
+rieval-system\backend\api\rou
+tes.py", line 62, in 
+upload_document
+    await 
+db.documents.insert_one({
+  File "C:\Program Files\Pyth
+on310\lib\concurrent\futures\
+thread.py", line 58, in run
+    result = 
+self.fn(*self.args, 
+**self.kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\collection.py", line 
+891, in insert_one
+    self._insert_one(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\collection.py", line 
+831, in _insert_one
+    self._database.client._re
+tryable_write(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2083, in 
+_retryable_write
+    return self._retry_with_s
+ession(retryable, func, s, 
+bulk, operation, 
+operation_id)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 1968, in 
+_retry_with_session
+    return 
+self._retry_internal(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\_csot
+.py", line 125, in 
+csot_wrapper
+    return func(self, *args, 
+**kwargs)
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2014, in _retry_internal
+    ).run()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2763, in run
+    return self._read() if 
+self._is_read else 
+self._write()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2873, in _write
+    self._server = 
+self._get_server()
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 2856, in _get_server
+    return 
+self._client._select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\mongo_client.py", 
+line 1833, in _select_server
+    server = 
+topology.select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+428, in select_server
+    server = 
+self._select_server(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+402, in _select_server
+    servers = 
+self.select_servers(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+298, in select_servers
+    server_descriptions = 
+self._select_servers_loop(
+  File "D:\s8 project\hed-ret
+rieval-system\backend\venv\li
+b\site-packages\pymongo\synch
+ronous\topology.py", line 
+359, in _select_servers_loop
+    raise 
+ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectio
+nTimeoutError: SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+2.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms),SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+1.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms),SSL handshake 
+failed: ac-3bqrjga-shard-00-0
+0.7lneyev.mongodb.net:27017: 
+[SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms), Timeout: 30s, 
+Topology Description: 
+<TopologyDescription id: 
+69a674fa2a4c2e59f0f45cdf, 
+topology_type: 
+ReplicaSetNoPrimary, 
+servers: [<ServerDescription 
+('ac-3bqrjga-shard-00-00.7lne
+yev.mongodb.net', 27017) 
+server_type: Unknown, rtt: 
+None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-00.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>, 
+<ServerDescription ('ac-3bqrj
+ga-shard-00-01.7lneyev.mongod
+b.net', 27017) server_type: 
+Unknown, rtt: None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-01.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>, 
+<ServerDescription ('ac-3bqrj
+ga-shard-00-02.7lneyev.mongod
+b.net', 27017) server_type: 
+Unknown, rtt: None, 
+error=AutoReconnect('SSL 
+handshake failed: ac-3bqrjga-
+shard-00-02.7lneyev.mongodb.n
+et:27017: [SSL: 
+TLSV1_ALERT_INTERNAL_ERROR] 
+tlsv1 alert internal error 
+(_ssl.c:1007) (configured 
+timeouts: socketTimeoutMS: 
+20000.0ms, connectTimeoutMS: 
+20000.0ms)')>]>

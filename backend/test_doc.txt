@@ -1,0 +1,2 @@
+This is a test document to ensure the upload and indexing system is working.
+It contains important testing policies and regulations for the AI assistant.

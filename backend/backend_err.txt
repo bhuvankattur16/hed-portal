@@ -1,0 +1,12 @@
+INFO:     Will watch for changes in these directories: ['D:\\s8 project\\hed-retrieval-system\\backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [19872] using WatchFiles
+INFO:     Started server process [28052]
+INFO:     Waiting for application startup.
+Could not connect to MongoDB Atlas: No replica set members match selector "Primary()", Timeout: 30s, Topology Description: <TopologyDescription id: 69a1c9e2e10bedcb753704b1, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-3bqrjga-shard-00-00.7lneyev.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.1407599999930244>, <ServerDescription ('ac-3bqrjga-shard-00-01.7lneyev.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-3bqrjga-shard-00-01.7lneyev.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-3bqrjga-shard-00-02.7lneyev.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-3bqrjga-shard-00-02.7lneyev.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [28052]
+INFO:     Stopping reloader process [19872]

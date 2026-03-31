@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="64" height="64" rx="14" fill="url(#grad)" />
+  <!-- BD text -->
+  <text x="8" y="46" font-family="Arial,sans-serif" font-weight="900" font-size="38" fill="white" letter-spacing="-1">BD</text>
+  <!-- Small star accent -->
+  <polygon points="58,6 60,11 65,11 61,14 63,19 58,16 53,19 55,14 51,11 56,11" fill="#fcd34d" opacity="0.95"/>
+</svg>
